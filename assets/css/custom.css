@@ -1,0 +1,200 @@
+/*
+Custom Css
+*/
+
+.colAbout {
+    flex: 33.33%;
+}
+
+.search-box {
+    width: 200px;
+    background: #fff;
+    border-radius: 5px;
+    margin-left: 50px;
+
+}
+
+.search-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-left: 50px;
+}
+
+input{
+    flex: 1;
+    height: 50px;
+    background:transparent;
+    border:0;
+    outline: 0;
+    font-size: 18px;
+    color:#ffffff;
+}
+
+button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+button .fa-solid{
+    width: 25px;
+    color: #555;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.result-box ul{
+border-top: 1px;
+padding: 15px 10px;
+margin-left: 50px;
+
+}
+
+.result-box ul li {
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.result-box ul li hover {
+    background: #000000;
+}
+
+.colAbout {
+    flex: 33.33%;
+}
+
+.search-box-two {
+    width: 200px;
+    margin: auto;
+    background: #fff;
+    border-radius: 5px;
+
+}
+
+.search-row-two {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligns items to the start (left) */
+    padding: 10px 20px;
+    margin: auto;
+    width: 25rem;
+}
+input{
+    flex: 1;
+    height: 50px;
+    background:transparent;
+    border:0;
+    outline: 0;
+    font-size: 18px;
+    color:#333;
+}
+
+.buttontwo{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+button .fa-solid{
+    width: 25px;
+    color: #555;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.result-box-two ul{
+border-top: 1px;
+padding: 15px 10px;
+margin-left: 50px;
+
+}
+
+.result-box-two ul li {
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.result-box-two ul li hover {
+    background: #000000;
+}
+
+
+
+/* Center the container horizontally and vertically */
+.containerSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Full viewport height */
+}
+
+/* Style for the search form wrapper */
+.search-wrapper {
+    text-align: center; /* Center the contents */
+}
+
+/* Style for the search form */
+.search-form {
+    display: inline-block; /* Allows the form to occupy only its content width */
+    color: white;
+}
+
+/* Style for the search bar input */
+.search-bar {
+    padding: 10px;
+    border: 1px solid #070000;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+/* Style for the search button */
+.search-button {
+    padding: 10px 20px;
+    background-color: #3f863f;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.icons a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+
+
+
+.background-section {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    animation: changeBackground 20s infinite linear;
+    z-index: -1;
+    margin-top: -6rem;
+  }
+  
+  @keyframes image {
+    0%, 100% {
+      background-image: url('assets/img/ani1.jpg');
+    }
+    33.33% {
+      background-image: url('assets/img/ani2.jpg');
+    }
+    66.66% {
+      background-image: url('assets/img/ani3.jpg');
+    }
+  }
+
+    
+ 
